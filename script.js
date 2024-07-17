@@ -9,7 +9,7 @@ const START_VALUE = 20;
 const END_VALUE = 30;
 const STEP = 0.5;
 
-let result = [];
+const result = [];
 for (let i = START_VALUE; i <= END_VALUE; i += STEP) {
   result.push(i);
 }
